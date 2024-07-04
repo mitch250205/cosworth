@@ -9,9 +9,6 @@ def linux_version(version_string):
     with open('output.log', 'r') as file:
         log_content = file.read()
 
-    # Define the regex pattern
-
-
     pattern = r"OS Version\s*:\s*(.*)"
 
     # Search for the pattern in the text
