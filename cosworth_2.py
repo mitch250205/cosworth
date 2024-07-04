@@ -10,7 +10,6 @@ def linux_version(version_string):
         log_content = file.read()
 
     # regex pattern to extract the OS version
-    # os_version_pattern = re.compile(r'OS Version\s*:\s*(kappa \d+\.\d+\.\d+ \(Release\) [A-Za-z]+\s\d+\s\d{4})')
     # Define the regex pattern
 
 
