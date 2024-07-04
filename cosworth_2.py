@@ -36,7 +36,6 @@ def search_for_linux_version(request):
     return linux_version(versionString)
 
 
-
 @pytest.mark.parametrize('search_for_linux_version', ["OS Version\s*:"], indirect=['search_for_linux_version'])
 def test_search_for_linux_version(search_for_linux_version):
     assert search_for_linux_version == True
