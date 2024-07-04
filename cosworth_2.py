@@ -14,8 +14,6 @@ def linux_version(version_string):
 
     # Search for the pattern in the text
     match = re.search(pattern, log_content)
-
-    # Check if a match was found and print the result
     if match:
         os_version = match.group(1)
         print(f"OS Version: {os_version}")
