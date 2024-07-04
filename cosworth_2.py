@@ -24,7 +24,6 @@ def linux_version(version_string):
         print("OS Version not found.")
         status = False
 
-
     return status
 
 @pytest.fixture()
